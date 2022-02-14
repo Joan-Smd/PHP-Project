@@ -1,0 +1,202 @@
+body
+{
+  background-image: url("5.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+
+}
+#sidenav
+		{
+			height: 100%; /* Full-height: remove this if you want "auto" height */
+			width: 200px; /* Set the width of the sidebar */
+		    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+		    z-index: 1; /* Stay on top */
+		    top: 0; /* Stay at the top */
+			left: 0;
+			background-color: #111; /* Black */
+			overflow-x: hidden; /* Disable horizontal scroll */
+			padding-top: 20px;
+		}
+		#sidenav a
+		{
+			padding: 6px 8px 6px 16px;
+			margin-top: 9px;
+  			text-decoration: none;
+  			font-size: 23px;
+
+		 	color: #818181;
+		  	display: block;
+		  	border-radius: 6px;
+		}
+		#sidenav a:hover
+		{
+			color: #f1f1f1;
+		}
+		.active
+		{
+			background-color: green;
+		}
+
+		#main
+		{
+			width:100%;
+			margin-left: 220px;
+			height: 100%;
+
+		}
+
+		#main1
+		{
+			width: 40%;
+			height: 500px;
+			margin:0px auto;
+			margin-top: 20px;
+
+			/*margin-left: 200px;*/
+			background-color: green;
+
+		}
+		#container
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color:;
+			background:linear-gradient();
+
+		}
+		#title
+		{
+			margin-left:200px ;
+		}
+
+		#con1
+		{
+			width: 30%;
+			height: 500px;
+			background-color: ;
+			float: left;
+			margin-top: 80px;
+			margin-left: 35%;
+			border-radius: 4px;
+			border: 1px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+		}
+
+		.heading2
+		{
+			color: wheat;
+			font-size: 30px;
+			margin: 5px 20px 20px 20px;
+		}
+		.heading3
+		{
+			color: wheat;
+			font-size: 30px;
+			margin: 23px 20px 20px 20px;
+		}
+		input[type="text"]
+		{
+			background-color: blanchedalmond;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+			height: 20px;
+			margin-top: 6px;
+		}
+		input[type="tel"]
+		{
+			background-color: blanchedalmond;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+			height: 20px;
+			margin-top: 6px;
+		}
+		input[type="email"]
+		{
+			background-color: blanchedalmond;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+			height: 20px;
+			margin-top: 6px;
+		}
+		input[type="password"]
+		{
+			background-color: blanchedalmond;
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+			height: 20px;
+			margin-top: 6px;
+		}
+		input[type="file"]
+		{
+			/*background-color: blanchedalmond;*/
+			border: none;
+			border-radius: 3px;
+			margin-left: 30px;
+			height: 20px;
+			margin-top: 6px;
+		}
+
+		#fnames
+		{
+			font-size: large;
+			color: blanchedalmond;
+			margin-left: 30px;
+
+		}
+		#fnames-log
+		{
+			font-size: large;
+			color: blanchedalmond;
+			margin-left: 30px;
+
+		}
+		textarea
+		{
+			background-color: blanchedalmond;
+			border: none;
+			border-radius: 3px;
+			margin-top: 6px;
+			width: 220px;
+		}
+		#ftext
+		{
+
+			margin-left: 30px;
+
+		}
+		input[type="submit"]
+		{
+
+			color: cadetblue;
+			margin-left: 30px;
+			background-color: crimson;
+			padding: 7px;
+
+		}
+		input[type="reset"]
+		{
+
+			color: cadetblue;
+			margin-left: 30px;
+			background-color: crimson;
+			padding: 7px;
+		}
+		#fselect
+		{
+			margin-left: 30px;
+			width:150px ;
+			height: 20px;
+		}
